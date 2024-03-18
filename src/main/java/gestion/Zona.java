@@ -33,7 +33,7 @@ public class Zona {
 	}
 	
 	public Zoologico getZoo() {
-		return zoo
+		return zoo;
 	}
 	
 	public void setZoo(Zoologico zoo) {
