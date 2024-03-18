@@ -16,8 +16,8 @@ public class Zona {
 		this.zoo = zoo;
 	}
 	
-	public agregarAnimales(ArrayList<Animal> animales) {
-		this.animales.add(animales);
+	public void agregarAnimales(Animal animal) {
+		this.animales.add(animal);
 	}
 	
 	public int cantidadAnimales() {
