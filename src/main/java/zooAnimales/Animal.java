@@ -21,8 +21,7 @@ public class Animal {
 		totalAnimales++;
 	}
 	
-	
-	public static void setTotalAnimales(int totalAnimales) {
+	ublic static void setTotalAnimales(int totalAnimales) {
 		Animal.totalAnimales=totalAnimales;
 	}
 	public static int getTotalAnimales() {
@@ -88,11 +87,4 @@ public class Animal {
 		    return "Mi nombre es "+ getNombre()+", tengo una edad de " +getEdad()+ ", habito en "+getHabitat()+" y mi genero es "+getGenero();
 		}
 	}
-
-
-}
-	
-	
-	
-	
 }
