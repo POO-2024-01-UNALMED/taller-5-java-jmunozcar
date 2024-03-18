@@ -21,7 +21,7 @@ public class Animal {
 		totalAnimales++;
 	}
 	
-	ublic static void setTotalAnimales(int totalAnimales) {
+	public static void setTotalAnimales(int totalAnimales) {
 		Animal.totalAnimales=totalAnimales;
 	}
 	public static int getTotalAnimales() {
