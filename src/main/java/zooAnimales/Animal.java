@@ -65,11 +65,11 @@ public class Animal {
 	
 	
 	public String movimiento() {
-		return "Mamiferos: " + Mamifero.getListado().size()+ "\n" + "Aves: " + Ave.getListado().size() + "\n" + "Reptiles: " + Reptil.getListado().size()+ "\n" + "Peces: " + Pez.getListado().size()+ "\n" + "Anfibios: " + Anfibio.getListado().size();
+		return "desplazarse";
 	}
 	
 	public static String totalPorTipo() {
-		return "Mamiferos: " + Mamifero.getListado().size()
+		return "Mamiferos: " + Mamifero.getListado().size()+ "\n" + "Aves: " + Ave.getListado().size() + "\n" + "Reptiles: " + Reptil.getListado().size()+ "\n" + "Peces: " + Pez.getListado().size()+ "\n" + "Anfibios: " + Anfibio.getListado().size();
 				
 		
 	}
